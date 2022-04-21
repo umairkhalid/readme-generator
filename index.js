@@ -10,21 +10,53 @@ const questions = [
         type: 'input',
         name: 'github',
         message: 'What is your GitHub username?',
+        validate: githubInput => {
+          if (githubInput) {
+              return true;
+          } else {
+              console.log('Please enter your GitHub username!');
+              return false;
+          }
+        }
       },
       {
         type: 'input',
         name: 'email',
-        message: 'What is your email address?'
+        message: 'What is your email address?',
+        validate: emailInput => {
+          if (emailInput) {
+              return true;
+          } else {
+              console.log('Please enter your email address!');
+              return false;
+          }
+        }
       },
       {
         type: 'input',
         name: 'title',
         message: 'What is the title of your project?(Required)',
+        validate: titleInput => {
+          if (titleInput) {
+              return true;
+          } else {
+              console.log('Please enter your title!');
+              return false;
+          }
+        }
       },
       {
         type: 'input',
         name: 'description',
         message: 'Please write a short description of your project.',
+        validate: descInput => {
+          if (descInput) {
+              return true;
+          } else {
+              console.log('Please enter the description!');
+              return false;
+          }
+        }
       },
       {
         type: 'list',
@@ -35,22 +67,40 @@ const questions = [
       {
         type: 'input',
         name: 'install',
-        message: 'What command should be run to install dependencies? (npm i)',
+        message: 'What command should be run to install dependencies?',
+        default: 'npm i',
       },
       {
         type: 'input',
         name: 'test',
-        message: 'What command should be run to run tests? (npm test)',
+        message: 'What command should be run to run tests?',
+        default: 'npm test'
       },
       {
         type: 'input',
         name: 'usage',
         message: 'What does the user need to know about using the repo?',
+        validate: usageInput => {
+          if (usageInput) {
+              return true;
+          } else {
+              console.log('Please enter your use instructions!');
+              return false;
+          }
+        }
       },
       {
         type: 'input',
         name: 'contributing',
         message: 'What does the user need to know about contributing to the repo?',
+        validate: contributerInput => {
+          if (contributerInput) {
+              return true;
+          } else {
+              console.log('Please enter contributer guidelines!');
+              return false;
+          }
+        }
       },
 ];
 

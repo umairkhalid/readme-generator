@@ -1,9 +1,9 @@
 
-  # Good README Generator
+  # readme generator
   
-  ![Github licence](https://img.shields.io/badge/license-MIT-blue)
+  ![Github licence](https://img.shields.io/badge/license-LGPL3.0-blue)
   ## Description
-  It is a command-line application which allows quick and easy generation of a project README.md to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
+  This app uses the command line interface to generate readme file
 
   ## Table-of-Contents
   * [Installation](#installation)
@@ -16,16 +16,16 @@
   ## [Installation](#table-of-contents)
   To install necessary dependencies, run the following command:
 
-    npm install
+    npm i
 
   ## [Usage](#table-of-contents)
-  This project was built in Node.js using the inquirer and fs package and runs on the command line.
+  nothing
   
   ## [License](#table-of-contents)
-  The application is covered under the following license: [MIT](https://choosealicense.com/licenses/mit/)
+  The application is covered under the following license: [LGPL-3.0](https://choosealicense.com/licenses/lgpl-3.0/)
 
   ## [Contributing](#table-of-contents)
-  To contribute to this application, create a pull request or fork the repo.
+  you can create a pull request or fork a project
 
   ## [Tests](#table-of-contents)
   To run tests, run the following command:
