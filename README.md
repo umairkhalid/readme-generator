@@ -18,10 +18,6 @@ node index.js
 
 Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
 
-## Walkthrough Video:
-
-[Video Link of Tutorial](./dist/2022-04-25%2014-23-16.mkv)
-
 ## User Story
 
 ```md
@@ -49,6 +45,13 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+## Walkthrough Video:
+
+[Video Link of Tutorial](./dist/2022-04-25%2014-23-16.mkv)
+
+## Application Demo:
+
+![portfolio demo](./dist/demo.gif)
 
 ## Table-of-Contents
 * [Installation](#installation)
